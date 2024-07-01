@@ -1,5 +1,5 @@
 import { Particles } from '~/app/components'
-import sprayIcon from '~/public/favicon.png'
+import mundoVirtualIcon from '~/public/favicon.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -9,8 +9,8 @@ export function Home() {
     <div className="flex h-screen w-screen flex-col items-center justify-center overflow-hidden bg-gradient-to-tr from-black via-zinc-600/20 to-black">
       <div className="animate-fade-in my-8 flex flex-col text-center">
         <Image
-          src={sprayIcon}
-          alt="icon of Mode Spray"
+          src={mundoVirtualIcon}
+          alt="icon of Mundo Virtual"
           width={128}
           height={128}
         />
